@@ -18,7 +18,7 @@ with st.sidebar:
         st.session_state.single_prediction_result = None
         st.session_state.csv_prediction_df = None
         st.session_state.page = 'Input Data'
-        st.switch_page("pages/📋_Input_Data.py")
+        st.switch_page("pages/Input_Data.py")
         st.rerun()
     
     st.markdown("---") 
@@ -58,7 +58,7 @@ if 'csv_prediction_df' not in st.session_state:
 
 tab1, tab2 = st.tabs(['Enter Individual Data', 'Upload CSV File'])
 
-# Kondisi user input data manual (satu per satu)
+# User input data manual (satu per satu)
 with tab1:
     st.subheader("Enter Individual Data")
     col1, col2 = st.columns(2)
@@ -116,14 +116,14 @@ with tab1:
                 'prediction': prediction
             }
             st.success("Prediction completed!")
-            st.switch_page("pages/📊_Results.py")
+            st.switch_page("pages/Results.py")
 
         # Peringatan untuk cek model ketika mengalami error
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
             st.write("Please check your input values and ensure the model is correctly loaded.")
 
-# Kondisi user input file CSV
+# User input file CSV
 with tab2:
     st.subheader("Upload CSV File")
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
@@ -135,7 +135,7 @@ with tab2:
             st.write("First 5 columns of uploaded data :")
             st.dataframe(fileCSV.head())
             
-            # Melakukan prediksi dan user dapat memantau proses prediksi dengan progress bar
+            # Melakukan prediksi dan user cek proses prediksi dengan progress bar
             if st.button("Predict Promotions for Uploaded CSV"):
                 predictions = []
                 probabilityy = []
@@ -160,7 +160,7 @@ with tab2:
                 st.session_state.csv_prediction_df = fileCSV
                 st.session_state.csv_view_index = 0
                 st.success("Prediction completed!")
-                st.switch_page("pages/📊_Results.py")
+                st.switch_page("pages/Results.py")
         
         # Peringatan untuk cek model ketika mengalami error      
         except Exception as e:
