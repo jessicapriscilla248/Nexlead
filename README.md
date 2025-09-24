@@ -16,8 +16,8 @@ Dataset yang dikumpulkan dan digunakan adalah Data Kinerja Karyawan untuk Analis
 Kami menggunakan model Cat Boost Classifier karena algoritma ini dirancang untuk meminimalkan overfitting melalui pendekatan gradient boosting yang unik, yang bermanfaat dalam skenario dengan data yang terbatas (Wang et al., 2024). Cat Boost secara native mendukung fitur kategorikal, memungkinkan input langsung tanpa enkoding yang rumit, sehingga mempermudah proses pemodelan (Saxena & Maurya, 2024).
 
 ## Web Application
-Demo app: <a href="https://www.canva.com/design/DAGqgnIASns/L3fdiF3fYaQhNNWL3jkPLg/view?utm_content=DAGqgnIASns&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc3db0797f8" target="_blank">Project Nexlead</a>
 <img src="\screen\tampilan_2.JPG" alt="Preview" width="600"/>
+Demo app: <a href="https://www.canva.com/design/DAGqgnIASns/L3fdiF3fYaQhNNWL3jkPLg/view?utm_content=DAGqgnIASns&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc3db0797f8" target="_blank">Project Nexlead</a>
 
 ## Hasil Prediksi
 - Model akan menampilkan apakah karyawan tersebut dipromosikan atau tidak.
