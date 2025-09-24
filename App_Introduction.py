@@ -33,7 +33,7 @@ with st.sidebar:
         st.session_state.page = 'Input Data'
         
         # Ketika click langsung diarahkan ke page Input Data
-        st.switch_page("pages/📋_Input_Data.py")
+        st.switch_page("pages/Input_Data.py")
         st.rerun()
     
     st.markdown("---") 
