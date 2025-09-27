@@ -1,5 +1,5 @@
 # Nexlead - Promotion Employee Predictor 
-Aplikasi machine learning untuk memprediksi apakah seorang karyawan masuk ke dalam kategori dipromosikan atau tidak menggunakan pengembangan model **CatBoostClassifier**. Dikembangkan juga rancangan User Interface yang dapat diakses pada link yang ada di portofolio.
+Aplikasi machine learning untuk memprediksi apakah seorang karyawan masuk ke dalam kategori dipromosikan atau tidak menggunakan pengembangan model CatBoostClassifier. Dikembangkan juga rancangan User Interface yang dapat diakses pada **link yang ada di portofolio**.
 
 ---
 
@@ -17,7 +17,7 @@ Kami menggunakan model Cat Boost Classifier karena algoritma ini dirancang untuk
 
 ## Web Application
 <img src="\screen\tampilan_2.JPG" alt="Preview" width="600"/>
-Demo app: _ada pada link portofolio_
+Demo app: **ada pada link portofolio**
 
 ## Hasil Prediksi
 - Model akan menampilkan apakah karyawan tersebut dipromosikan atau tidak.
