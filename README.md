@@ -17,7 +17,7 @@ Kami menggunakan model Cat Boost Classifier karena algoritma ini dirancang untuk
 
 ## Web Application
 <img src="\screen\tampilan_2.JPG" alt="Preview" width="600"/>
-Demo app: **ada pada link portofolio**
+Demo app: ada pada link portofolio
 
 ## Hasil Prediksi
 - Model akan menampilkan apakah karyawan tersebut dipromosikan atau tidak.
